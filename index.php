@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="bodymain">
     <header>
         <nav class="top-menu">
             <a href="index.php"><img src="img/BolasLogo.png" alt="Your Logo" class="logo"></a>
@@ -25,8 +25,6 @@
             </ul>
         </nav>
     </header>
-
-    <!-- The login form popup -->
     <div id="loginPopup" class="popup">
         <div class="popup-content">
             <span class="close" id="closeLogin">&times;</span>
@@ -51,24 +49,15 @@
                 <input type="email" id="email" name="email" required>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
-                <!-- Additional fields as needed -->
                 <button type="submit">Register</button>
             </form>
         </div>
     </div>
 
-    <!-- Your other HTML content -->
-
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Your Ice Cream Shop. All rights reserved.</p>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Add your JavaScript code here
-            // For example: document.getElementById("loginBtn").addEventListener("click", function () { /* Your code */ });
-        });
-    </script>
 </body>
 
 </html>
