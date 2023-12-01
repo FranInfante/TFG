@@ -41,60 +41,56 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-              <div class="masthead-subheading">Bolas Ice Creams</div>
-              <div class="masthead-heading text-uppercase">Homemade Artisans of Fresh Delights!</div>
-              <button class="login-button" onclick="openPopup()">
-                Sign in
-              </button>
+                <div class="masthead-subheading">Bolas Ice Creams</div>
+                <div class="masthead-heading text-uppercase">Homemade Artisans of Fresh Delights!</div>
+                <button class="login-button" onclick="openPopup()">
+                    Sign in
+                </button>
             </div>
-          </header>
-          <div id="popupContainer" class="popup-container" style="display: none;">
+        </header>
+        
+        <div id="overlay" class="overlay" style="display: none;"></div>
+        
+        <div id="popupContainer" class="popup-container" style="display: none;">
             <form id="loginForm" class="form_container">
-              <div class="logo_container"></div>
-              <div class="title_container">
-                <p class="title">Login to your Account</p>
-                <span class="subtitle">Get started with our app, just create an account and enjoy the experience.</span>
-              </div>
-              <br>
-              <div class="input_container">
-                <label class="input_label" for="email_field">Email</label>
-                <svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg" class="icon">
-                  <!-- Email icon SVG code -->
-                </svg>
-                <input placeholder="name@mail.com" title="Input title" name="input-name" type="text" class="input_field" id="email_field">
-              </div>
-              <!-- Add other input fields as needed -->
-          
-              <button title="Sign In" type="button" class="login-button">
-                <span>Sign In</span>
-              </button>
-          
-              <div class="separator">
-                <hr class="line">
-                <span>Or</span>
-                <hr class="line">
-              </div>
-          
-              <button title="Sign In" type="button" class="sign-in_ggl">
-                <svg height="18" width="18" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                  <!-- Google sign-in SVG code -->
-                </svg>
-                <span>Sign In with Google</span>
-              </button>
-              <!-- Add other social sign-in buttons as needed -->
-          
-              <button title="Sign In" type="button" class="sign-in_apl">
-                <svg preserveAspectRatio="xMidYMid" version="1.1" viewBox="0 0 256 315" height="20px" width="16px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                  <!-- Apple sign-in SVG code -->
-                </svg>
-                <span>Sign In with Apple</span>
-              </button>
-              <!-- Add other social sign-in buttons as needed -->
-          
-              <p class="note">Terms of use &amp; Conditions</p>
+                <div class="logo_container"></div>
+                <div class="title_container">
+                    <p class="title">Login to your Account</p>
+                    <span class="subtitle">Get started with our app, just create an account and enjoy the experience.</span>
+                </div>
+                <br>
+                <div class="input_container">
+                    <label class="input_label" for="email_field">Email</label>
+                    <svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg" class="icon">
+                        <!-- Email icon SVG code -->
+                    </svg>
+                    <input placeholder="name@mail.com" title="Input title" name="input-name" type="text" class="input_field" id="email_field">
+                </div>
+                <button title="Sign In" type="submit" class="login-button">
+                    <span>Sign In</span>
+                </button>
+                <div class="separator">
+                    <hr class="line">
+                    <span>Or</span>
+                    <hr class="line">
+                </div>
+                <button title="Sign In" type="submit" class="sign-in_ggl">
+                    <svg height="18" width="18" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Google sign-in SVG code -->
+                    </svg>
+                    <span>Sign In with Google</span>
+                </button>
+                <button title="Sign In" type="submit" class="sign-in_apl">
+                    <svg preserveAspectRatio="xMidYMid" version="1.1" viewBox="0 0 256 315" height="20px" width="16px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Apple sign-in SVG code -->
+                    </svg>
+                    <span>Sign In with Apple</span>
+                </button>
+                <p class="note">Terms of use and Conditions</p>
             </form>
-          </div>
-          <script src="js/scripts.js"></script>
+        </div>
+        
+        <script src="path/to/your/js/scripts.js"></script>
           
         <!-- Services-->
         <section class="page-section" id="services">
