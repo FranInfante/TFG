@@ -6,6 +6,15 @@
 //
 // Scripts
 // 
+function openPopup() {
+    var popupContainer = document.getElementById("popupContainer");
+    popupContainer.style.display = "block";
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    var signInButton = document.querySelector(".login-button");
+    signInButton.addEventListener("click", openPopup);
+});
 
 window.addEventListener('DOMContentLoaded', event => {
 
