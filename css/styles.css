@@ -11153,6 +11153,7 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #232f61;
+    z-index: 999;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
