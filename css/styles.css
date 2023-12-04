@@ -31,6 +31,18 @@
   /* Your existing styling for the popup */
 }
 
+
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the distance from the top */
+  right: 30px; /* Adjust the distance from the left */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 36px; /* Adjust the font size */
+}
+
  .form_container {
   width: fit-content;
   height: fit-content;
@@ -56,6 +68,14 @@
   border: 1px solid #F7F7F8;
   filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
   border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_container img {
+  max-width: 100%; /* Adjust as needed */
+  max-height: 100%; /* Adjust as needed */
 }
 
 .title_container {
